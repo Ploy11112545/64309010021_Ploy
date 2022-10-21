@@ -4,4 +4,50 @@
        <FoodName>ผัดกระเพราหมุ</FoodName>
        <Price>35 บาท</Price>
      </ThaiFood>
+     <ThaiFood>
+       <FoodID>002</FoodID>
+       <FoodName>ผัดเครื่องแกงไก่</FoodName>
+       <Price>35 บาท</Price>
+     </ThaiFood>
+     <ThaiFood>
+       <FoodID>003</FoodID>
+       <FoodName>ข้าวผัด</FoodName>
+       <Price>35 บาท</Price>
+     </ThaiFood>
+     <ThaiFood>
+       <FoodID>004</FoodID>
+       <FoodName>ผัดเผ็ดปลาดุก</FoodName>
+       <Price>50 บาท</Price>
+     </ThaiFood>
+     <ThaiFood>
+       <FoodID>005</FoodID>
+       <FoodName>ผัดซี่อิ้ว</FoodName>
+       <Price>35 บาท</Price>
+     </ThaiFood>
+     <ThaiFood>
+       <FoodID>006</FoodID>
+       <FoodName>ราดหน้า</FoodName>
+       <Price>35 บาท</Price>
+     </ThaiFood>
+     <ThaiFood>
+       <FoodID>007</FoodID>
+       <FoodName>หูมทอดกระเทียม</FoodName>
+       <Price>35 บาท</Price>
+     </ThaiFood>
+     <ThaiFood>
+       <FoodID>008</FoodID>
+       <FoodName>คะน้าหมูกรอบ</FoodName>
+       <Price>35 บาท</Price>
+     </ThaiFood>
+     <ThaiFood>
+       <FoodID>009</FoodID>
+       <FoodName>ข้าวผัดปู</FoodName>
+       <Price>50 บาท</Price>
+     </ThaiFood>
+     <ThaiFood>
+       <FoodID>010</FoodID>
+       <FoodName>ข้าวหมูแดง</FoodName>
+       <Price>35 บาท</Price>
+     </ThaiFood>
+
 </Food>
