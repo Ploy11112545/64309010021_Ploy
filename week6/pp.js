@@ -85,18 +85,17 @@ for(dtatsum=0;dtatsum<dtat.length;dtatsum++){
     sum04 += sum7;
     if(sum01<300000){
     }else if(sum01>=300000&&sum01<=600000){
-        sum2 = sum01*10;
+        sum2 = sum01*0.1;
         sum02 += sum2;
     }else if(sum01>=600000&&sum01<=1000000){
-        sum2 = sum01*25;
+        sum2 = sum01*0.25;
         sum02 += sum2;
     }else if(sum01>1000000){
-        sum2 = sum01*35;
+        sum2 = sum01*0.35;
         sum02 += sum2;
     }
     console.log(dtat[dtatsum].Name,"มีรายได้สุทธิต่อปี =",sum7,"บาท","ต้องจ่ายภาษี",sum2,"บาท","ได้โบนัส",sum3);
 }
-
 console.log("ผลประเมิน A")
 for(i=0;i<dtat.length;i++){
     if(dtat[i].Level=="A"){
