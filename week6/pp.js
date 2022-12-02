@@ -62,10 +62,10 @@ var dtat=[{
     "salary":13000,
     "Level":"B",
 }]
-var sum01 = 0  
-var sum02 = 0   
-var sum03 =0    
-var sum04 = 0   
+var sum01 = 0
+var sum02 = 0
+var sum03 =0
+var sum04 = 0
 for(dtatsum=0;dtatsum<dtat.length;dtatsum++){
     if(dtat[dtatsum].Level== "S"){
         sum3 = dtat[dtatsum].salary*1.6;
@@ -81,7 +81,7 @@ for(dtatsum=0;dtatsum<dtat.length;dtatsum++){
         sum03 += sum3;
     }
     sum01 = dtat[dtatsum].salary*12;
-    sum7 = sum01+sum03
+    sum7 = sum01+sum3
     sum04 += sum7;
     if(sum01<300000){
     }else if(sum01>=300000&&sum01<=600000){
