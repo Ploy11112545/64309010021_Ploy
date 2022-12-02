@@ -83,10 +83,9 @@ for(dtatsum=0;dtatsum<dtat.length;dtatsum++){
     sum01 = dtat[dtatsum].salary*12;
     sum7 = sum01+sum3
     sum04 += sum7;
-    if(sum01<300000){{
+    if(sum01<=300000){
         sum2 = sum01*0;
         sum02 += sum2;
-    }
     }else if(sum01>=300000&&sum01<=600000){
         sum2 = sum01*0.1;
         sum02 += sum2;
@@ -97,14 +96,15 @@ for(dtatsum=0;dtatsum<dtat.length;dtatsum++){
         sum2 = sum01*0.35;
         sum02 += sum2;
     }
-    
     console.log(dtat[dtatsum].Name,"มีรายได้สุทธิต่อปี =",sum7,"บาท","ต้องจ่ายภาษี",sum2,"บาท","ได้โบนัส",sum3);
 }
+
 console.log("พนักงานแผนกการเงิน")
 for(i=0;i<dtat.length;i++){
     if(dtat[i].Dept=="การเงิน"){
         itsum = dtat[i].salary*12;
-        console.log(dtat[i].Name,"ตำแหน่ง",dtat[i].Position,"เงินเดือน",dtat[i].salary,"รายได้ต่อปี",itsum);
+        ploy=dtat[i].sum2;
+        console.log(dtat[i].Name,"ตำแหน่ง",dtat[i].Position,"ต้องจ่ายภาษี",ploy,"รายได้ต่อปี",itsum);
     }
 }
 console.log("ผลประเมิน A")
