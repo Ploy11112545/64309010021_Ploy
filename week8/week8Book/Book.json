@@ -1,0 +1,65 @@
+{
+    "bookploy" : [
+        {
+            "id": 101,
+            "title": "สิ่งที่เรียนรู้จากชีวิต",
+            "price": 150,
+            "picture": "p1.jpg"
+        },
+        {
+            "id": 102,
+            "title": "Homodeus : ประวัติย่อของวันพรุ่งนี้",
+            "price": 103,
+            "picture": "p2.jpg"
+        },
+        {
+            "id": 103,
+            "title": "ชีวิตดีขึ้นทุกด้านด้วยการจัดบ้านแค่ครั้งเดียว",
+            "price": 185,
+            "picture": "p3.jpg"
+        },
+        {
+            "id": 104,
+            "title": "FACTFULNESS จริง ๆ แล้วโลกดีขึ้นทุกวัน",
+            "price": 146,
+            "picture": "p4.jpg"
+        },
+        {
+            "id": 105,
+            "title": "ปาฏิหาริย์ร้านชำของคุณนามิยะ",
+            "price": 154,
+            "picture": "p5.jpg"
+        },
+        {
+            "id": 106,
+            "title": "พรหมลิขิต",
+            "price": 552,
+            "picture": "p6.jpg"
+        },
+        {
+            "id": 107,
+            "title": "ดาวซานถี่ อุบัติการณ์สงครามล้างโลก",
+            "price": 155,
+            "picture": "p7.jpg"
+        },
+        {
+            "id": 108,
+            "title": "The Alchemist : ขุมทรัพย์สุดปลายฝัน",
+            "price": 215,
+            "picture": "p8.jpg"
+        },
+        {
+            "id": 109,
+            "title": "100 years of solitude : หนึ่งร้อยปีแห่งความโดดเดี่ยว",
+            "price": 154,
+            "picture": "p9.jpg"
+        },
+        {
+            "id": 110,
+            "title": "เซเปียนส์: ประวัติย่อมนุษยชาติ",
+            "price": 256,
+            "picture": "p10.jpg"
+        }
+        
+    ]
+}
