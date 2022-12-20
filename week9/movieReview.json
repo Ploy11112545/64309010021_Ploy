@@ -1,0 +1,127 @@
+
+{
+    "movieReview": [
+        {
+            "id": 1,
+            "movieName": "ทีเซอร์ Avatar: The Way of Water - อวตาร: วิถีแห่งสายน้ำ",
+            "movieLength": 190,
+            "director": "James Cameron",
+            "category": "หนังผจญภัย  หนังต่อสู่ หนังแฟนตาซี",
+            "picture": "https://movie.thaiware.com/upload_misc/movie/2022_11/original/221123120313227.jpg",
+            "trailer": "https://www.youtube.com/embed/t0sCVZk0VVM",
+            "review": {
+                "review": "AVATAR: THE WAY OF WATER - อวตาร: วิถีแห่งสายน้ำเป็น 3 ชั่วโมงที่ไม่ได้รู้สึกว่านานเลย ยังไม่เต็มอิ่มด้วยซ้ำ!งานภาพงดงามตระการตาคุ้มค่าการรอคอยเนื้อเรื่องถึงแม้จะค่อนข้างธรรมดา แต่สนุกเอาเรื่อ",
+                "score": {
+                    "screenPlay": 7,
+                    "playing": 7,
+                    "music": 8,
+                    "actorSkills": 9.5,
+                    "graphics": 10,
+                    "average": 8.5
+                }
+            }
+        },
+        {
+            "id": 2,
+            "movieName": " Sick of Myself - ซิค ออฟ มายเซลฟ์",
+            "movieLength": 95,
+            "director": "Kristoffer Borgli",
+            "category": "หนังตลก",
+            "picture": "https://movie.thaiware.com/upload_misc/movie/2022_11/original/2211171203143v5.jpg",
+            "trailer": "https://www.youtube.com/embed/1sCgMEpQ934",
+            "review": {
+                "review": "เรื่องราวของหญิงหิวแสง ตรรกะเพี้ยนที่ดูจบแล้วแบบ ห๊ะ!? อะไรวะ?",
+                "score": {
+                    "screenPlay": 0,
+                    "playing": 0,
+                    "music": 0,
+                    "actorSkills": 0,
+                    "graphics": 0,
+                    "average": 0
+                }
+            }
+        },
+        {
+            "id": 3,
+            "movieName": " Jeepers Creepers : Reborn - โฉบกระชาก กลับมาเกิด",
+            "movieLength": 90,
+            "director": "Timo Vuorensola",
+            "category": "หนังผี หนังระทึกขวัญ",
+            "picture": "https://movie.thaiware.com/upload_misc/movie/2022_11/original/2211121203132J3.jpg",
+            "trailer": "https://www.youtube.com/embed/X68NG1ST_TQ",
+            "review": {
+                "review": "พังทุกภาคส่วน ไม่รู้จะชมอะไรบทที่ตลกสิ้นดี ไม่สมเหตุสมผล พยายามยืดจนไม่มีอะไรให้เล่าแล้วความตื่นเต้นความน่ากลัวในต้นฉบับถูกทำลายหมดสิ้น ",
+                "score": {
+                    "screenPlay": 0,
+                    "playing": 0,
+                    "music": 0,
+                    "actorSkills": 0,
+                    "graphics": 0,
+                    "average": 0.5
+                }
+            }
+        },
+        {
+            "id": 4,
+            "movieName": "Decibel - ลั่นระเบิดเมือง",
+            "movieLength": 110,
+            "director": "In-ho Hwang",
+            "category": "หนังต่อสู้แอกชัน",
+            "picture": "https://movie.thaiware.com/upload_misc/movie/2022_11/original/221124120319M47.jpg",
+            "trailer": "https://www.youtube.com/embed/UmgVsK6cQuc",
+            "review": {
+                "review": "หนัง Decibel หรือชื่อไทยว่า ลั่นระเบิดเมือง อดีตนาวิกโยธินแห่งกองทัพเรือเกาหลีได้รับโทรศัพท์ข่มขู่จากชายปริศนา ที่อ้างว่าได้ลอบวางระเบิดเอาไว้ตามสถานที่ต่าง ๆ ที่มีเป้าหมายเป็นพลเรือนผู้บริสุทธิ์หมู่มาก ในหนึ่งในสถานที่นั้นก็คือสนามกีฬาและสวนน้ำขนาดใหญ่ ผู้ก่อการ้ายอ้างว่าใช้ ระเบิดเสียง ที่จะเป็นการทำงานปล่อยพลังเสียงมากกว่า 100 เดซิเบล เกินกว่าที่มนุษย์จะทนรับฟังได้ ทำให้เขาและอีกหลาย ๆ คน พยายามหาทางยับยั้งวินาศกรรมในครั้งนี้ ก่อนที่จะสายเกินไป...",
+                "score": {
+                    "screenPlay": 7,
+                    "playing": 6,
+                    "music": 6,
+                    "actorSkills": 8,
+                    "graphics": 6,
+                    "average": 6.6
+                }
+            }
+        },
+        {
+            "id": 5,
+            "movieName": "Black Panther: Wakanda Forever - แบล็ค แพนเธอร์: วาคานด้าจงเจริญ",
+            "movieLength": 161,
+            "director": "Ryan Coogler",
+            "category": "หนังต่อสู้แอกชัน หนังผจญภัย",
+            "picture": "https://movie.thaiware.com/upload_misc/movie/2022_11/original/2533_22110913312505.jpg",
+            "trailer": "https://www.youtube.com/embed/_Z3QKkl1WyM",
+            "review": {
+                "review": "หนังอุทิศแด่ Chadwick Boseman อย่างแท้จริงแต่...ไร้เสน่ห์อย่างน่าใจหาย",
+                "score": {
+                    "screenPlay": 5,
+                    "playing": 5,
+                    "music": 5,
+                    "actorSkills": 8,
+                    "graphics": 7,
+                    "average": 6.6
+                }
+            }
+        },
+        {
+            "id": 6,
+            "movieName": "Ambulance - ปล้นระห่ำ ฉุกเฉินระทึก",
+            "movieLength": 146,
+            "director": "Michael Bay",
+            "category": "หนังปล้น",
+            "picture": "https://movie.thaiware.com/upload_misc/movie/2022_03/original/2203011200132EO.jpg",
+            "trailer": "https://www.youtube.com/embed/7NU-STboFeI",
+            "review": {
+                "review": "Ambulance ว่าด้วยเรื่องราวของ Will ทหารผ่านศึกผู้หาเงินไปรักษาภรรยา แต่ก็อับจนหนทาง จึงต้องหันไปหา Danny พี่ชายที่เป็นอาชญากรเพื่อขอเงินมา แต่แล้ว Danny ก็ยื่นข้อเสนอให้ Will มาปล้นธนาคารกับเขาแถมยังได้เงินเยอะกว่าที่ตั้งใจจะขอแต่แรกซะอีก แต่การปล้นกลับผิดแผน มีตำรวจบาดเจ็บ ทางเข้าออกถูกปิด พวกเขาจึงหาทางออกจากธนาคารด้วยการปล้นรถพยาบาลพร้อมหนีการไล่ล่าจากตำรวจแบบสุดชีวิต ตั้งแต่เห็นตัวอย่างแรกของ Ambulance และเห็นว่าเป็นผลงานของ Michael Bay ก็ไม่ได้คาดหวังบทที่คมคาย สมเหตุสมผลหรือซับซ้อนอะไรอยู่แล้ว เตรียมถอดสมองไปดูเอาความมัน ระเบิด ภูเขา เผากระท่อมและรถที่พร้อมพังทุกเมื่อ และหลังจากที่ได้ไปดูต้องบอกเลยว่า...เป็นหนังที่โคตรบันเทิง",
+                "score": {
+                    "screenPlay": 8,
+                    "playing": 9,
+                    "music": 8,
+                    "actorSkills": 9,
+                    "graphics": 9,
+                    "average": 8.6
+                }
+            }
+        }
+    ]
+}
+
+
