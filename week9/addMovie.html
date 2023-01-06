@@ -15,72 +15,113 @@
       <div class="container">
         <form id="myForm">
             <div class="row">
-                <div class="col-5">
+                <div class="col-8">
                     <label>MovieName</label>
                     <input type="text"  id="movieName"  class="form-control">      
                 </div>
-                <div class="col-5">
+                <div class="col-4">
                     <label>MovieLength</label>
-                    <input type="text"  id="movieLengthe"  class="form-control">  
+                    <input type="text"  id="movieLength"  class="form-control">  
                 </div>
             </div>
             <div class="row">
-                <div class="col-5">
+                <div class="col-8">
                     <label>director</label>
                     <input type="text"  id="director"  class="form-control">  
                 </div>
-                <div class="col-5">
+                <div class="col-4">
                     <label>category</label>
                     <input type="text"  id="category"  class="form-control">  
                 </div>
                </div>
                <div class="row">
-                <div class="col-5">
+                <div class="col-8">
                     <label>picture</label>
                     <input type="text"  id="picture"  class="form-control">  
                 </div>
-                <div class="col-5">
+                <div class="col-4">
                     <label>trailer</label>
                     <input type="text"  id="trailer"  class="form-control">  
                 </div>
             </div>
             <div class="row">
-                <div class="col-10">
+                <div class="col-12">
                     <label>review</label>
-                    <input type="text"  id="review"  class="form-control">
+                    <textarea  id="review" class="form-control"></textarea>
                 </div>
             </div>
             <div class="row">
-                <div class="col-10" >
+                <div class="col" >
                     <label>score</label>
                 </div>
             </div>
             <div class="row">
-                <div class="col-1">
+                <div class="col">
                     <label>screenPlay</label>
                     <input type="text"  id="screenPlay"  class="form-control">  
                 </div>
-                <div class="col-1">
+                <div class="col">
                     <label>playing</label>
                     <input type="text"  id="playing"  class="form-control">  
                 </div>
-                <div class="col-1">
+                <div class="col">
                     <label>music</label>
                     <input type="text"  id="music"  class="form-control">  
                 </div>
-                <div class="col-1">
+                <div class="col">
                     <label>actorSkills</label>
                     <input type="text"  id="actorSkills"  class="form-control">  
                 </div>
-                <div class="col-1">
+                <div class="col">
                     <label>graphics</label>
                     <input type="text"  id="graphics"  class="form-control">  
                 </div>
+            </div> 
+            <div class="row">
+                <div class="col">
+                    <input type="button" class="btn btn-dark" value="Submit" onclick="add()">
+
+                </div>
             </div>
-
-
-                
+        </form>        
       </div>
+      <script>
+        function add(){
+           let obj ={
+            "id":"",
+            "movieName": document.forms['myForm']['movieName'].value,
+            "movieLength": document.forms['myForm']['movieLength'].value,
+            "director": document.forms['myForm']['director'].value,
+            "category": document.forms['myForm']['category'].value,
+            "picture": document.forms['myForm']['picture'].value,
+            "trailer": document.forms['myForm']['trailer'].value,
+            "review":{
+                 "review": document.forms['myForm']['review'].value,
+                 "score":{
+                      "screenPlay": Number(document.forms['myForm']['screenPlay'].value),
+                      "playing": Number(document.forms['myForm']['playing'].value),
+                      "music": Number(document.forms['myForm']['music'].value),
+                      "actorSkills": Number(document.forms['myForm']['actorSkills'].value),
+                      "graphics": Number(document.forms['myForm']['graphics'].value),
+                      "average": null
+                 }
+            }          
+           };
+           
+           obj.review.score.average = (obj.review.score.screenPlay+obj.review.score.playing+obj.review.score.music+obj.review.score.actorSkills+obj.review.score.graphics)/5;
+           console.log(obj);
+           
+           let text = JSON.stringify(obj);
+           console.log("นี่คือข้อความ : ",text);
+
+           let xhr = new XMLHttpRequest();
+           xhr.open("POST","http://localhost:3000/movieReview");
+           xhr.setRequestHeader("Content-Type","application/json");
+           xhr.send(text);
+
+        }
+        
+      </script>
   
     
   </body>
