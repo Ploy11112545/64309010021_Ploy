@@ -19,18 +19,25 @@
       let xhttp = new XMLHttpRequest();
       let i=0;
       function getAjax(){
-      xhttp.open("GET","http://localhost:3000/book");
+      xhttp.open("GET","http://localhost:3000/bookploy");
       xhttp.send();
       xhttp.onload = function(){
           //console.log(this.responseText);
           let obj = JSON.parse(this.responseText);
           console.log(obj);
           let temp = '';
-          temp = '<tr><td>'+obj[i].title+'</td></tr>';
+          temp +='<tr>'+
+                    '<td><img src="' +obj[i].picture+'" width=150px></td>'+
+                    '<td><h3>'+obj[i].title+'</h4>'+obj[i].explain+
+                    '<br><b> ราคา </b>'+obj[i].price+'<b> บาท </b>'
+                    '</td>'
+                    '</tr>'
+
+            }
           document.getElementById('display').innerHTML= '<table>'+temp+'</table>';
           
       }
-  }
+  
       function next(){
           console.log(i)
           i++;

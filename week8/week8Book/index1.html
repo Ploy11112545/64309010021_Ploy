@@ -11,17 +11,15 @@
   </head>
   <body>     
     <div class="container" id="display"></div>
+
     <script>
         let xhttp = new XMLHttpRequest();
         xhttp.onload=function(){
-            //console.log(this.responseText);
-            //console.log(typeof(this.responseText));
-            //console.log(typeof(obj));
             let obj = JSON.parse(this.responseText);
             let temp=''
             for(i=0;i<obj.length;i++){
                 temp +='<tr>'+
-                    '<td><img src="./img/'+obj[i].picture+'" width=150px></td>'+
+                    '<td><img src="' +obj[i].picture+'" width=150px></td>'+
                     '<td><h3>'+obj[i].title+'</h4>'+obj[i].explain+
                     '<br><b> ราคา </b>'+obj[i].price+'<b> บาท </b>'
                     '</td>'
@@ -30,6 +28,24 @@
             }
             document.getElementById('display').innerHTML = '<table  class="table">'+temp+'</table>'
 
+          function next(){
+          console.log(i)
+          i++;
+          if(i>19){
+               
+          }
+          getAjax();
+          
+      }
+  
+      function back(){
+          console.log()
+          i--;
+          if(i < 0){
+                i=0;
+              }
+          getAjax();
+      }
         }
         xhttp.open("GET",'http://localhost:3000/bookploy');
         xhttp.send();
